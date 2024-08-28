@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                     });
                     String apilink = "https://api.openai.com/v1/chat/completions";
-                    String apikey = "sk-proj-AL3S7WgGbYw6U48OJ912T3BlbkFJtVfWajDYqziVKnfFpBSr";
+                    String apikey = "";
 
                     JSONObject object = new JSONObject();
                     JSONArray messagesArray = new JSONArray();
